@@ -1,289 +1,286 @@
-# Bahria University Clone Website
+# Bahria University Website Clone
 
-A responsive and modern website clone of Bahria University, built with HTML5, CSS3, and vanilla JavaScript. This project showcases a full-featured educational institution website with multiple pages and interactive components.
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Realmaryambano/Bahria-University-Website-Clone/blob/main/LICENSE)
+[![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=flat-square&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/Overview.en.html)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://www.javascript.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Realmaryambano/Bahria-University-Website-Clone)
 
-## Table of Contents
+A responsive and modern multi-page university website clone built using **HTML5, CSS3, and JavaScript**. This project replicates the design and structure of an educational institution website, featuring university information, courses, campus details, facilities, blog content, testimonials, and a contact page.
 
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Pages](#pages)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [File Descriptions](#file-descriptions)
-- [Customization](#customization)
-- [Browser Support](#browser-support)
-- [License](#license)
-- [Contributing](#contributing)
+The goal of this project was to practice **frontend development, responsive web design, UI structuring, and creating a complete website interface from scratch.**
 
-## Features
-
-- **Responsive Design**: Mobile-first approach that works seamlessly across all devices (desktop, tablet, mobile)
-- **Modern UI/UX**: Clean and professional interface with smooth animations
-- **Navigation Menu**: Dynamic navigation with responsive hamburger menu for mobile devices
-- **Course Listings**: Comprehensive display of available university courses
-- **Blog Section**: News and articles about university events and announcements
-- **Contact Forms**: Easy-to-use contact page for inquiries
-- **Google Fonts Integration**: Beautiful typography using Google Fonts (Poppins)
-- **Font Awesome Icons**: Professional icons for enhanced visual appeal
-- **SEO Optimized**: Proper meta tags and semantic HTML structure
-- **Fast Loading**: Optimized images and efficient CSS styling
-
-## Project Structure
-
-```
-Bahria University Clone Website/
-├── index.html          # Home page
-├── about.html          # About the university
-├── course.html         # Course listings page
-├── blog.html           # Blog/News page
-├── contact.html        # Contact page
-├── style.css           # Main stylesheet
-├── README.md           # Project documentation
-├── LICENSE             # MIT License
-└── images/             # Image assets
-    └── bahria-university-logo.png
-```
-
-## Pages
-
-### 1. **Home (index.html)**
-The landing page featuring:
-- Hero section with university banner
-- Featured courses and programs
-- University highlights and statistics
-- Call-to-action buttons for enrollment
-
-### 2. **About (about.html)**
-Contains information about:
-- University mission and vision
-- History and achievements
-- Faculty and staff highlights
-- Campus facilities
-
-### 3. **Courses (course.html)**
-Displays:
-- List of available academic programs
-- Course descriptions and specializations
-- Admission requirements
-- Course duration and fees
-
-### 4. **Blog (blog.html)**
-Features:
-- Recent news and announcements
-- University events and updates
-- Student stories and testimonials
-- Academic articles
-
-### 5. **Contact (contact.html)**
-Includes:
-- Contact form for inquiries
-- Campus location and directions
-- Phone and email contact information
-- Office hours and support details
-
-## Technologies Used
-
-- **HTML5**: Semantic markup and structure
-- **CSS3**: Styling, flexbox, and responsive layouts
-- **JavaScript**: Vanilla JS for interactivity (navigation menu, form handling)
-- **Google Fonts**: Typography (Poppins font family)
-- **Font Awesome**: Icon library for UI elements
-- **Responsive Design**: CSS media queries for mobile optimization
-
-## Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/bahria-university-clone.git
-   cd bahria-university-clone
-   ```
-
-2. **Open in Browser**
-   Simply open `index.html` in your web browser:
-   ```bash
-   # Windows
-   start index.html
-   
-   # macOS
-   open index.html
-   
-   # Linux
-   xdg-open index.html
-   ```
-
-3. **Using a Local Server (Recommended)**
-   ```bash
-   # Python 3
-   python -m http.server 8000
-   
-   # Python 2
-   python -m SimpleHTTPServer 8000
-   
-   # Node.js (if you have http-server installed)
-   http-server
-   ```
-   Then navigate to `http://localhost:8000` in your browser.
-
-## Usage
-
-### Navigating the Website
-- Use the navigation menu to browse different sections
-- Click on the Bahria University logo to return to the home page
-- Use the hamburger menu on mobile devices for navigation
-- Fill out forms on the contact page to get in touch
-
-### Customizing Content
-1. Edit HTML files to update page content
-2. Modify `style.css` to change colors, fonts, and layouts
-3. Replace images in the `images/` folder with your own
-4. Update contact information in `contact.html`
-
-## File Descriptions
-
-| File | Description |
-|------|-------------|
-| `index.html` | Home page with hero section and featured content |
-| `about.html` | University information and history |
-| `course.html` | Detailed course listings and programs |
-| `blog.html` | News, articles, and university updates |
-| `contact.html` | Contact form and communication details |
-| `style.css` | All styling, layout, and responsive design |
-| `README.md` | Project documentation and guidelines |
-| `LICENSE` | MIT License file |
-| `images/` | Directory containing all image assets |
-
-## Customization
-
-### Changing Colors
-Open `style.css` and modify the CSS variables or color values:
-```css
-/* Example: Change primary color */
-.header {
-    background-color: #your-color-here;
-}
-```
-
-### Adding New Pages
-1. Create a new `.html` file
-2. Copy the header and navigation from an existing page
-3. Add your content in the body
-4. Update navigation links in all pages
-
-### Updating Images
-Replace images in the `images/` folder with your own. Ensure proper image optimization for web use.
-
-### Modifying Fonts
-Edit the Google Fonts link in the HTML `<head>` section to use different font families.
-
-## Browser Support
-
-This website is compatible with:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-- Internet Explorer 11+ (with limited CSS3 support)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### MIT License Summary
-You are free to:
-- Use this project for personal and commercial purposes
-- Modify and distribute the code
-- Use it in your own projects
-
-Under the condition that you include the original copyright notice and license.
-
-## Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Fork the repository**
-   ```bash
-   git clone https://github.com/yourusername/bahria-university-clone.git
-   ```
-
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. **Make your changes**
-   - Maintain code style consistency
-   - Test on multiple browsers
-   - Keep mobile responsiveness in mind
-
-4. **Commit your changes**
-   ```bash
-   git commit -m "Add your descriptive message"
-   ```
-
-5. **Push to the branch**
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-6. **Open a Pull Request**
-   - Describe your changes clearly
-   - Reference any related issues
-
-## Development Tips
-
-- **Mobile First**: Design and test for mobile devices first, then scale up
-- **Performance**: Minimize CSS and use compressed images
-- **Accessibility**: Use semantic HTML and ARIA labels where appropriate
-- **Testing**: Test across different browsers and devices before deployment
-- **SEO**: Keep page titles, meta descriptions, and headings optimized
-
-## Future Enhancements
-
-Potential improvements for this project:
-- Add backend functionality with PHP/Node.js for form submission
-- Implement a CMS for easy content management
-- Add student portal with login functionality
-- Integrate database for course and enrollment management
-- Add dark mode theme toggle
-- Implement search functionality
-- Add analytics tracking
-- Create mobile app version
-
-## Troubleshooting
-
-### Page not loading properly
-- Clear browser cache (Ctrl+Shift+Delete or Cmd+Shift+Delete)
-- Try a different browser
-- Check console for error messages (F12)
-
-### Images not displaying
-- Ensure image files exist in the `images/` folder
-- Verify image file paths in HTML
-- Check file permissions
-
-### Styling issues
-- Ensure `style.css` is linked correctly in HTML
-- Clear browser cache
-- Verify CSS syntax for any custom changes
-
-## Contact & Support
-
-For questions or support:
-- Email: maryambano.official@gmail.com
-- Create an issue on GitHub
-- Check existing issues for solutions
-
-## Acknowledgments
-
-- Bahria University for inspiration
-- Google Fonts for typography
-- Font Awesome for icons
-- All contributors and users
+**[📂 GitHub Repository](https://github.com/Realmaryambano/Bahria-University-Website-Clone)**
 
 ---
 
-**Last Updated**: June 2026
+## 📋 Table of Contents
 
-For the latest version and updates, please visit the [GitHub repository](https://github.com/Realmaryambano/Bahria-University-Website-Clone).
+- [Website Preview](#-website-preview)
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Pages Overview](#-pages-overview)
+- [Technologies Used](#-technologies-used)
+- [Installation & Setup](#-installation--setup)
+- [Project Highlights](#-project-highlights)
+- [Future Improvements](#-future-improvements)
+- [Browser Compatibility](#-browser-compatibility)
+- [License](#-license)
+- [Contact](#-contact)
+
+---
+
+## 🌐 Website Preview
+
+### Home Page
+![Home Page](images/home.png)
+
+### About Section
+![About Page](images/about.png)
+
+### Courses Section
+![Courses Page](images/courses.png)
+
+### Campus & Facilities
+![Facilities](images/facilities.png)
+
+### Contact Page
+![Contact Page](images/contact.png)
+
+---
+
+# ✨ Features
+
+- ✅ Fully responsive design for desktop, tablet, and mobile devices
+- ✅ Modern university landing page layout
+- ✅ Responsive navigation bar with mobile hamburger menu
+- ✅ Hero section with call-to-action buttons
+- ✅ Course and program showcase
+- ✅ Campus information section
+- ✅ Facilities and student experience section
+- ✅ Student testimonials section
+- ✅ Blog/news section
+- ✅ Contact form interface
+- ✅ Embedded Google Maps location
+- ✅ Custom styling with CSS3
+- ✅ Integrated Google Fonts and Font Awesome icons
+
+---
+
+# 📁 Project Structure
+
+```
+Bahria-University-Website-Clone/
+
+│
+
+├── index.html          # Homepage
+
+├── about.html          # About university page
+
+├── course.html         # Courses and programs page
+
+├── blog.html           # Blog/news page
+
+├── contact.html        # Contact page
+
+├── style.css           # Main stylesheet
+
+├── images/             # Website images and assets
+
+├── README.md           # Project documentation
+
+└── LICENSE             # MIT License
+
+```
+
+---
+
+# 📄 Pages Overview
+
+## 🏠 Home Page (index.html)
+
+Includes:
+- University hero section
+- Introduction about Bahria University
+- Course categories
+- Campus showcase
+- Facilities section
+- Student testimonials
+- Call-to-action section
+- Footer with social links
+
+## 🎓 About Page (about.html)
+
+Contains:
+- University introduction
+- Mission and educational vision
+- Information about academic development
+- About section with images
+
+## 📚 Courses Page (course.html)
+
+Features:
+- Undergraduate programs
+- Postgraduate programs
+- Doctoral programs
+- Facilities overview
+
+## 📰 Blog Page (blog.html)
+
+Includes:
+- University-related articles
+- Online programs information
+- Blog categories:
+  - Business Analytics
+  - Data Science
+  - Machine Learning
+  - Computer Science
+
+## 📞 Contact Page (contact.html)
+
+Contains:
+- Contact form UI
+- University contact information
+- Google Maps integration
+- Location details
+
+---
+
+# 🛠 Technologies Used
+
+## Frontend Development
+
+- **HTML5**
+  - Semantic webpage structure
+  - Multi-page website layout
+
+- **CSS3**
+  - Responsive design
+  - Flexbox layouts
+  - Animations and hover effects
+  - Media queries
+
+- **JavaScript**
+  - Responsive navigation menu interaction
+
+## External Libraries
+
+[![Google Fonts](https://img.shields.io/badge/Google%20Fonts-4285F4?style=flat-square&logo=google-fonts&logoColor=white)](https://fonts.google.com/)
+- Poppins typography
+
+[![Font Awesome](https://img.shields.io/badge/Font%20Awesome-228AE6?style=flat-square&logo=font-awesome&logoColor=white)](https://fontawesome.com/)
+- UI icons and social media icons
+
+---
+
+# 🚀 Installation & Setup
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/Realmaryambano/Bahria-University-Website-Clone.git
+```
+
+## 2. Open Project Folder
+
+```bash
+cd Bahria-University-Website-Clone
+```
+
+## 3. Run Website
+
+Open `index.html` in your preferred browser.
+
+---
+
+## Using Local Server (Recommended)
+
+You can also run the project using a local server:
+
+### Python
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000` in your browser.
+
+---
+
+# 🎯 Project Highlights
+
+- Developed a complete multi-page educational website interface
+- Implemented responsive layouts for different screen sizes
+- Created reusable design components across multiple pages
+- Applied modern UI principles using CSS styling
+- Integrated external fonts and icon libraries
+- Practiced frontend project organization and file structuring
+
+---
+
+# 🔮 Future Improvements
+
+Possible enhancements:
+
+- Add backend functionality for contact form submission
+- Create student login portal
+- Add database integration for courses and admissions
+- Implement search functionality
+- Add dark mode support
+- Deploy website using GitHub Pages or other hosting platforms
+
+---
+
+# 🌍 Browser Compatibility
+
+Supported browsers:
+
+[![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://www.google.com/chrome/)
+[![Edge](https://img.shields.io/badge/Edge-0078D4?style=flat-square&logo=microsoft-edge&logoColor=white)](https://www.microsoft.com/en-us/edge)
+[![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=flat-square&logo=mozilla-firefox&logoColor=white)](https://www.mozilla.org/en-US/firefox/)
+[![Safari](https://img.shields.io/badge/Safari-000000?style=flat-square&logo=safari&logoColor=white)](https://www.apple.com/safari/)
+[![Mobile](https://img.shields.io/badge/Mobile%20Browsers-6D6D6D?style=flat-square&logo=webkit&logoColor=white)](https://en.wikipedia.org/wiki/Mobile_browser)
+
+---
+
+# 📜 License
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+This project is licensed under the **[MIT License](LICENSE)**.
+
+You are free to use, modify, and distribute this project according to the license terms.
+
+---
+
+# 📬 Contact
+
+**Maryam Bano**
+
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:maryambano.official@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Realmaryambano)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/realmaryambano)
+
+**Email:** [maryambano.official@gmail.com](mailto:maryambano.official@gmail.com)
+
+**GitHub:** [@Realmaryambano](https://github.com/Realmaryambano)
+
+---
+
+## 📞 Support & Contribution
+
+Feel free to:
+- **Report Issues**: [GitHub Issues](https://github.com/Realmaryambano/Bahria-University-Website-Clone/issues)
+- **Fork & Contribute**: [GitHub Repository](https://github.com/Realmaryambano/Bahria-University-Website-Clone)
+- **Discuss Ideas**: [GitHub Discussions](https://github.com/Realmaryambano/Bahria-University-Website-Clone/discussions)
+
+---
+
+<div align="center">
+
+**⭐ If you found this project helpful, please consider giving it a star on GitHub!**
+
+Made with ❤️ by [Maryam Bano](https://github.com/Realmaryambano)
+
+</div>
